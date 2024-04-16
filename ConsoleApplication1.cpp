@@ -15,7 +15,7 @@ uintptr_t getFinalAddress(const Memory& memory, uintptr_t baseAddress, const vec
 int main() {
     cout << "--------------------------------------------------" << endl;
     cout << "Buscando y abriendo proceso de nombre Sunkenland.exe" << endl;
-    // Abro el proceso Sunkenland.exe para acceder a sus recursos
+    
     const auto memory = Memory{ L"Sunkenland.exe" };
     if (memory.isProcessOpened()) {
         cout << "Proceso encontrado!" << endl;
