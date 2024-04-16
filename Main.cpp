@@ -38,6 +38,6 @@ int main() {
         }
     }
     else {
-        cout << "No se encontró el proceso de nombre csgo.exe" << endl;
+        cout << "No se encontró el proceso" << endl;
     }
 }
